@@ -1,0 +1,7 @@
+{
+  "time-interval": 1000,
+  "analog-watch-background-color": "white",
+  "analog-watch-seconds-tick-enabled": false,
+  "analog-watch-offset": "0",
+  "clock-radius": 200
+}

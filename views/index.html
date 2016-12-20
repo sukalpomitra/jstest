@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf=8">
+    <title>Eyeota's FrontEnd coding project</title>
+    <link href="stylesheets/base.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- content -->
+    <div class="content" oc-lazy-load="eyeota-clock">
+      <!-- BEGIN LOGIN FORM -->
+      <analog-watch background-color="white" seconds-tick-enabled="true" offset="1"></analog-watch>
+      <analog-watch background-color="pink" seconds-tick-enabled="false" offset="2"></analog-watch>
+      <analog-watch background-color="#f4d942" seconds-tick-enabled="false" offset="3"></analog-watch>
+      <analog-watch offset="1.21"></analog-watch>
+    </div>
+  
+  </body>
+  <script src="libs/plugins-eyeota/jquery/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="libs/plugins-eyeota/lodash/lodash.js" type="text/javascript"></script>
+  <script src="libs/plugins-eyeota/requirejs/require.js" data-main="/js/kernel-ui/app/common/main"></script>
+  <script>
+
+    require(['../../../app']);
+  </script>
+</html>

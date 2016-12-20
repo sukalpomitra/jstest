@@ -1,0 +1,38 @@
+.second-tick{
+	stroke:#000;
+	stroke-width:3;
+}
+
+.watch-rim{
+	stroke-width:3;	
+	stroke: #000;
+}
+
+.hour-tick{
+	stroke:#000;
+	stroke-width:3;
+	stroke-linecap: round;
+}
+
+.hour-label{
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+.second-hand{
+	stroke:#000;
+	stroke-width:3;
+}
+
+.minute-hand{
+	stroke:#000;
+	stroke-width:8;
+	stroke-linecap:round;
+}
+
+.hour-hand{
+	stroke:#000;
+	stroke-width:12;
+	stroke-linecap:round;
+}
+
